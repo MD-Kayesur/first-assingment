@@ -4,6 +4,7 @@
          monospace;
      margin: 15px;
      padding: 0; 
+    
  }
 
  button:hover {
@@ -49,21 +50,29 @@
 
  /*---============================================ 2nd -section===================================*/
 
- section {
+ .web-develop {
      background-color: whitesmoke;
      padding: 20px;
+     background-color: #f0f0f0;
+     margin-top: 40px;
  }
 
  section .start {
      text-align: center;
      margin-bottom: 50px;
+     
  }
 
  section .start-again {
      display: flex;
      gap: 30%;
      text-align: left;
-     margin-top: 10px;
+     justify-content: space-between;
+      margin: 0 60px;
+      padding: 30px;
+      border-radius: 10px;
+background-color: white;
+     margin-top: 15px;
  }
 
  .start-again div button {
@@ -76,7 +85,7 @@
      width: 100%;
      height: 100%;
      border-radius: 7px;
-     box-shadow: #9e42f9  3px 3px 3px;
+    
      
     
  }
@@ -84,6 +93,7 @@
 section .start-again div img:hover{
     background-color:#c492f7  ;
      transform: translateY(-20px);
+     box-shadow: #9e42f9  3px 3px 3px;
 }
 
  section div .middle {
@@ -117,6 +127,7 @@ section .start-again div img:hover{
 
  section {
      text-align: center;
+
  }
 
  section .current {
@@ -125,11 +136,13 @@ section .start-again div img:hover{
      gap: 15px;
      margin-left: 10px;
      padding: 10px;
+     justify-content: space-around;
  }
 
  section .current .terget {
      padding: 15px;
      border-radius: 10px;
+     margin-top: 30px;
  }
 
  section .current .terget:hover {
@@ -140,26 +153,27 @@ section .start-again div img:hover{
 
  section .current .terget a {
      text-decoration: none;
-     background-color: #f9ca83c6;
+     background-color: white;
      border-radius: 5px;
      color: #2600ff7d;
      padding: 4px;
  }
  section .current .terget a:hover{
+    background-color: #f9ca83c6;
     box-shadow: #eba233c6 3px 3px 3px;
  }
 
- section .current .terget:nth-child(1) {
+ section .current .terget:nth-child(1):hover {
      background-color: antiquewhite;
      box-shadow:  #fcd39d 3px 3px 3px;
  }
 
- section .current .terget:nth-child(2) {
+ section .current .terget:nth-child(2):hover {
      background-color: #cbd0f8;
      box-shadow:  #9ea9fc 3px 3px 3px;
  }
 
- section .current .terget:nth-child(3) {
+ section .current .terget:nth-child(3):hover {
      background-color: #fbf3c8;
      box-shadow:  #fae989 3px 3px 3px;
 
@@ -177,30 +191,34 @@ section .start-again div img:hover{
  section .next .targets {
      display: flex;
      
-     margin-top: 60px;
+     margin-top: 60px; 
      gap: 10px;
      padding: 20px;
      border-radius: 7px;
-     background-color: #f9ebeb;
+     background-color: #ffffff;
  }
  section .next .targets:hover{
     transform: translateY(-50px);
+    background-color:#fee2e2 ;
     box-shadow: #fe7d7d 3px 3px 3px;
  }
 
  section .next .targets a {
      text-decoration: none;
      padding: 5px;
-     background-color: #fab87fc8;
+    background-color: white;
      border-radius: 5px;
  }
  section .next .targets a:hover{
+    background-color: #fab87fc8;
     box-shadow: #c9650ec8 3px 3px 3px ;
  }
 
  /*---===========================================-6th -section-===================================*/
 
-
+.support{
+    margin-top: 40px;
+}
  section .support img {
      width: 100%;
      height:400px;
