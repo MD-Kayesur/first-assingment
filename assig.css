@@ -114,13 +114,13 @@ section .start-again div img:hover{
     font-size: 30px  ;
      
  }
- section .vedio-top1 img {
-
-     width:100%;
-      height:400px ;
-      margin-top: 15px;
-     
- } 
+ 
+ section .vedio-top1 iframe{
+    width:100%;
+    height:400px ;
+    margin-top: 15px;
+   
+ }
 
 
 
